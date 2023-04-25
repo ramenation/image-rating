@@ -1,0 +1,79 @@
+{
+  "name": "Tambay #9",
+  "description": "Tambay ng Blockchain",
+  "image": "ipfs://NewUriToReplace/9.png",
+  "dna": "e22f1d3588f0ddd8f1253dd12654e97019277926",
+  "edition": 9,
+  "date": 1676996650466,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "BG_All_Violet"
+    },
+    {
+      "trait_type": "BodyType",
+      "value": "BT_PS_Alien"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Head_PS_Alien"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "Tattoos_PS_None"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Clothes_PS_Sando"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Nose_All_SRound"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hair_PS_Alien_Panot01"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Accessories_None"
+    },
+    {
+      "trait_type": "EyeMakeup",
+      "value": "EyeMakeup_None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Eyes_Alien_Angry02"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "Brows_All_Balding_Sad"
+    },
+    {
+      "trait_type": "FacialMarks",
+      "value": "FacialMarks_All_None"
+    },
+    {
+      "trait_type": "FacialHair",
+      "value": "FacialHair_All_Beard02"
+    },
+    {
+      "trait_type": "Eyeglasses",
+      "value": "EyeGlasses_Alien_WayfarerGlasses"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mouth_All_Happy"
+    },
+    {
+      "trait_type": "HeadGear",
+      "value": "HeadGear_All_Towel02"
+    },
+    {
+      "trait_type": "ItemOnHand",
+      "value": "ItemOnHand_PS_Alien_Hanger"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

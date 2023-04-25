@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Rating App</title>
+</head>
+<body>
+  <h1>Image Rating App</h1>
+  <img src="/images/<%= imageFile %>" alt="Random Image" width="300" />
+  <ul>
+    <% attributes.forEach((attribute) => { %>
+      <li><strong><%= attribute.trait_type %>:</strong> <%= attribute.value %></li>
+    <% }); %>
+  </ul>
+  <form action="/rate" method="POST">
+    <input type="hidden" name="imageFile" value="<%= imageFile %>">
+    <button type="submit" name="rating" value="like">Like (1)</button>
+    <button type="submit" name="rating" value="dislike">Dislike (2)</button>
+  </form>
+  <a href="/stats">View Stats</a>
+  <script>
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "1") {
+        document.querySelector('button[value="like"]').click();
+      } else if (e.key === "2") {
+        document.querySelector('button[value="dislike"]').click();
+      }
+    });
+  </script>
+</body>
+</html>
